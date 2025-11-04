@@ -39,6 +39,7 @@
 
         <input type="submit" value = "Log in" > 
     </form> 
+    <!-- ---------------------------------------- -->
 
 
     <!-- <form action="get-post-methods.php" method = "post">
@@ -48,6 +49,31 @@
         <input type="submit" value = "total" > 
 
     </form> -->
+    <!-- ------------------------------------------ -->
+
+    <!-- <form action="get-post-methods.php" method = "post">
+        <label > x:</label> 
+        <input type="text" name = "x"><br><br>
+
+        <label > y:</label> 
+        <input type="text" name = "y"><br><br>
+
+        <label > z:</label> 
+        <input type="text" name = "z"><br><br>
+
+
+        <input type="submit" value = "total">
+    </form>
+     -->
+
+     <!-- ---------------------------------- -->
+
+     <!-- <form action="get-post-methods.php" method = "post">
+        <label for=""> radius:</label><br>
+        <input type="text" name = "radius"><br>
+
+        <input type="submit" value = "calculate">
+     </form> -->
     
 </body>
 </html>
@@ -66,6 +92,38 @@
 
     // echo "You have ordered {$quantity} x {$item}s <br> ";
     // echo "Your total is {$total}";
+    //-------------------------------------------
+    // $x = $_POST["x"];
+    // $y = $_POST["y"];
+    // $z = $_POST["z"];
+    
+    // $total = null;
 
+    // $total = abs($x);
+    // $total = round($x);
+    // $total = floor($x);
+    // $total = ceil($x);
+    // $total = pow($x, $y);
+    // $total = sqrt($x);
+    // $total = max($x, $y, $z);
+    // $total = min($x, $y, $z);
+    // $total = pi();
+    // $total = rand(1,10);
+    // echo $total;
+    //--------------------------------------------
+    // $r = $_POST["radius"];
 
-   ?>
+    // $circumference = 2 *  pi() *$r;
+    // $circumference = round($circumference,2);
+
+    // $area = pi() * pow($r, 2);
+    // $area = round($area,2);
+
+    // $volume = 4/3 * pi() * pow($r, 3);
+    // $volume = round($volume,2);
+
+    // echo "Circumference: {$circumference} <br>";
+    // echo "Area: {$area} <br>";
+    // echo "Volume {$volume} <br>";
+
+?>
