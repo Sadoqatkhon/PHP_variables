@@ -30,7 +30,7 @@
 <body>
 
 
-    <form action="index.php" method ="post">
+    <form action="get-post-methods.php" method ="post">
         <label for="">username:</label><br>
         <input type="text" name = "username"> <br>
 
@@ -41,7 +41,7 @@
     </form> 
 
 
-    <!-- <form action="index.php" method = "post">
+    <!-- <form action="get-post-methods.php" method = "post">
         <label for=""> quantity:</label><br>
         <input type="text"  name = "quantity">
 
@@ -68,25 +68,4 @@
     // echo "Your total is {$total}";
 
 
-    //--------------------------------------------
-    //exercise
-    echo "Exercise: <br>";
-
-    $hours = 48;
-    $rate = 15;
-    $weekly_pay = null;
-
-    if($hours <= 0)
-    {
-        $weekly_pay = 0;
-    }
-    elseif($hours <= 40)
-    {
-        $weekly_pay =  $hours * $rate;
-    }
-    else{
-        $weekly_pay = ($hours * $rate) + (($hours - 40) * ($rate * 1.5));
-    }
-    echo "You made {$weekly_pay} made this week";
-
-    ?>
+   ?>
